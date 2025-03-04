@@ -185,8 +185,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
 STRIPE_CURRENCY = 'usd'
-STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
-STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
+STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', 'pk_test_51QyVszR5oY7UpMNEvQxhyxxy4mgF2WcH5tiwpS3xAjGZnn6fbKs8xx2FhW09BZrYqPq8op1z368Hj1SAh0y8CcKb00jkZwsDbD')
+STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', 'sk_test_51QyVszR5oY7UpMNELtBDGHlOlmj7X6c5C5YA8mVvQalxkABhpug0OhrftFfQvo4QROLnIXBpM7Oea8KBBmDqMAis00DCQ3snvS')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
