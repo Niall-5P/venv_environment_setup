@@ -28,7 +28,10 @@ SECRET_KEY = 'django-insecure-e1+ekbxai#0!$=1bvuq2_+zl1k1eolov13oovi&yphsdl*5lvh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', # vs code preview
+                 'localhost', # listen for stripe webhooks
+                 
+                 ]
 
 
 # Application definition
@@ -187,6 +190,7 @@ STANDARD_DELIVERY_PERCENTAGE = 10
 STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', 'pk_test_51QyVszR5oY7UpMNEvQxhyxxy4mgF2WcH5tiwpS3xAjGZnn6fbKs8xx2FhW09BZrYqPq8op1z368Hj1SAh0y8CcKb00jkZwsDbD')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', 'sk_test_51QyVszR5oY7UpMNELtBDGHlOlmj7X6c5C5YA8mVvQalxkABhpug0OhrftFfQvo4QROLnIXBpM7Oea8KBBmDqMAis00DCQ3snvS')
+STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', 'whsec_a077813046652874ca8ca977c2e551f0cb8df2b66d5955a4dc5e8f9e4d5c0ef0') 
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
