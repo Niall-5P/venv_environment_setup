@@ -51,6 +51,8 @@ INSTALLED_APPS = [
     'products',
     'bag',
     'checkout',
+    'profiles',
+    'crispy_bootstrap4',
 
     # other
     'crispy_forms',
@@ -69,7 +71,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'aurarette.urls'
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+CRISPY_ALLOWED_TEMPLATE_PACKS = ("bootstrap", "bootstrap4")
+CRISPY_TEMPLATE_PACK = "bootstrap4"
 
 TEMPLATES = [
     {
