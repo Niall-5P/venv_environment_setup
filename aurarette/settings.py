@@ -194,7 +194,7 @@ STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', 'pk_test_51QyVszR5oY7UpMNEvQxhyxxy4mgF2WcH5tiwpS3xAjGZnn6fbKs8xx2FhW09BZrYqPq8op1z368Hj1SAh0y8CcKb00jkZwsDbD')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', 'sk_test_51QyVszR5oY7UpMNELtBDGHlOlmj7X6c5C5YA8mVvQalxkABhpug0OhrftFfQvo4QROLnIXBpM7Oea8KBBmDqMAis00DCQ3snvS')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', 'whsec_a077813046652874ca8ca977c2e551f0cb8df2b66d5955a4dc5e8f9e4d5c0ef0') 
-DEFAULT_FROM_EMAIL = 'aurarette.example.com'
+DEFAULT_FROM_EMAIL = 'aurarette@example.com'
 
 
 # Default primary key field type
