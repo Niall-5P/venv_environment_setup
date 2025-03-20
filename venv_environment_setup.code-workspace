@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Aurarette_v1",
+			"path": "Aurarette_v1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "venv_environment_setup"
+	}
+}

@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 import dj_database_url
-
+from pathlib import Path
 if os.path.isfile('env.py'):
     import env
 
@@ -141,7 +141,7 @@ LOGIN_REDIRECT_URL = '/'
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('postgresql://neondb_owner:npg_76RGniADUhSe@ep-purple-tooth-a2nu748d.eu-central-1.aws.neon.tech/cramp_oval_chute_661417'))
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
 else: 
     DATABASES = {
@@ -152,7 +152,6 @@ else:
     }
 
 
-postgresql://neondb_owner:npg_76RGniADUhSe@ep-purple-tooth-a2nu748d.eu-central-1.aws.neon.tech/cramp_oval_chute_661417
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators

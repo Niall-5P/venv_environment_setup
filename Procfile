@@ -1,1 +1,1 @@
-web: gunicorn aurarette.wsgi:application
+web: gunicorn aurarette.wsgi
