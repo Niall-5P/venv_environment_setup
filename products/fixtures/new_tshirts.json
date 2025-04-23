@@ -3,11 +3,11 @@
     "model": "products.product",
     "pk": 1,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0001",
       "name": "Mens T\u2011Shirt 1",
       "description": "Premium cotton pink crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "10.88",
+      "price": "15.88",
       "rating": 5,
       "image": "1.jpg"
     }
@@ -16,7 +16,7 @@
     "model": "products.product",
     "pk": 2,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0002",
       "name": "Womens T\u2011Shirt 2",
       "description": "Premium cotton black oversized crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -29,7 +29,7 @@
     "model": "products.product",
     "pk": 3,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0003",
       "name": "Mens T\u2011Shirt 3",
       "description": "Premium cotton navy crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -42,7 +42,7 @@
     "model": "products.product",
     "pk": 4,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0004",
       "name": "Womens T\u2011Shirt 4",
       "description": "Premium cotton white crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -55,7 +55,7 @@
     "model": "products.product",
     "pk": 5,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0005",
       "name": "Mens T\u2011Shirt 5",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -68,7 +68,7 @@
     "model": "products.product",
     "pk": 6,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0006",
       "name": "Womens T\u2011Shirt 6",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -81,7 +81,7 @@
     "model": "products.product",
     "pk": 7,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0007",
       "name": "Mens T\u2011Shirt 7",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -94,7 +94,7 @@
     "model": "products.product",
     "pk": 8,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0008",
       "name": "Womens T\u2011Shirt 8",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -107,7 +107,7 @@
     "model": "products.product",
     "pk": 9,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0009",
       "name": "Mens T\u2011Shirt 9",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -120,9 +120,9 @@
     "model": "products.product",
     "pk": 10,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0010",
-      "name": "Womens T\u2011Shirt 10",
+      "name": "Mens T\u2011Shirt 2 longsleeve",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
       "price": "18.62",
       "rating": 5,
@@ -133,9 +133,9 @@
     "model": "products.product",
     "pk": 11,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0011",
-      "name": "Mens T\u2011Shirt 11",
+      "name": "Mens T\u2011Shirt 12",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
       "price": "14.9",
       "rating": 4,
@@ -146,7 +146,7 @@
     "model": "products.product",
     "pk": 12,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0012",
       "name": "Mens T\u2011Shirt 12",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -159,7 +159,7 @@
     "model": "products.product",
     "pk": 13,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0013",
       "name": "Womens T\u2011Shirt 13",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -172,7 +172,7 @@
     "model": "products.product",
     "pk": 14,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0014",
       "name": "Multipack T\u2011Shirt 14",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -185,7 +185,7 @@
     "model": "products.product",
     "pk": 15,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0015",
       "name": "Mens T\u2011Shirt 15",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -198,7 +198,7 @@
     "model": "products.product",
     "pk": 16,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0016",
       "name": "Womens T\u2011Shirt 16",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -211,11 +211,11 @@
     "model": "products.product",
     "pk": 17,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0017",
       "name": "Mens T\u2011Shirt 17",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "10.1",
+      "price": "13.1",
       "rating": 5,
       "image": "113.jpg"
     }
@@ -224,11 +224,11 @@
     "model": "products.product",
     "pk": 18,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0018",
       "name": "Mens Longsleeve T\u2011Shirt 18",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "11.08",
+      "price": "12.08",
       "rating": 4,
       "image": "114.jpg"
     }
@@ -237,7 +237,7 @@
     "model": "products.product",
     "pk": 19,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0019",
       "name": "Mens extended sizing T\u2011Shirt 19",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -250,7 +250,7 @@
     "model": "products.product",
     "pk": 20,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0020",
       "name": "Womens T\u2011Shirt 20",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -263,7 +263,7 @@
     "model": "products.product",
     "pk": 21,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0021",
       "name": "Mens 3 pack T\u2011Shirt 21",
       "description": "Premium cotton white crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -276,7 +276,7 @@
     "model": "products.product",
     "pk": 22,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0022",
       "name": "Mens grey T\u2011Shirt 22",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -289,7 +289,7 @@
     "model": "products.product",
     "pk": 23,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0023",
       "name": "Mens T\u2011Shirt 23",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -302,7 +302,7 @@
     "model": "products.product",
     "pk": 24,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0024",
       "name": "Mens T\u2011Shirt 24",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -315,7 +315,7 @@
     "model": "products.product",
     "pk": 25,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0025",
       "name": "Mens T\u2011Shirt 25",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -328,7 +328,7 @@
     "model": "products.product",
     "pk": 26,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0026",
       "name": "Womens T\u2011Shirt 26",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -341,7 +341,7 @@
     "model": "products.product",
     "pk": 27,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0027",
       "name": "Mens T\u2011Shirt 27",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -354,7 +354,7 @@
     "model": "products.product",
     "pk": 28,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0028",
       "name": "Mens T\u2011Shirt 28",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -367,7 +367,7 @@
     "model": "products.product",
     "pk": 29,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0029",
       "name": "Womens purple T\u2011Shirt 29",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -380,7 +380,7 @@
     "model": "products.product",
     "pk": 30,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0030",
       "name": "Womens T\u2011Shirt 30",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -393,7 +393,7 @@
     "model": "products.product",
     "pk": 31,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0031",
       "name": "Womens T\u2011Shirt 31",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -406,7 +406,7 @@
     "model": "products.product",
     "pk": 32,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0032",
       "name": "Womens T\u2011Shirt 32",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -419,7 +419,7 @@
     "model": "products.product",
     "pk": 33,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0033",
       "name": "Womens T\u2011Shirt 33",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -432,7 +432,7 @@
     "model": "products.product",
     "pk": 34,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0034",
       "name": "Womens T\u2011Shirt 34",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -445,7 +445,7 @@
     "model": "products.product",
     "pk": 35,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0035",
       "name": "Mens T\u2011Shirt 35",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -458,11 +458,11 @@
     "model": "products.product",
     "pk": 36,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0036",
       "name": "Womens T\u2011Shirt 36",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "10.34",
+      "price": "13.34",
       "rating": 5,
       "image": "130.jpg"
     }
@@ -471,11 +471,11 @@
     "model": "products.product",
     "pk": 37,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0037",
       "name": "Womens T\u2011Shirt 37",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "11.63",
+      "price": "13.63",
       "rating": 5,
       "image": "131.jpg"
     }
@@ -484,7 +484,7 @@
     "model": "products.product",
     "pk": 38,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0038",
       "name": "Mens T\u2011Shirt 38",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -497,7 +497,7 @@
     "model": "products.product",
     "pk": 39,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0039",
       "name": "Mens T\u2011Shirt 39",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -510,7 +510,7 @@
     "model": "products.product",
     "pk": 40,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0040",
       "name": "Mens T\u2011Shirt 40",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -523,7 +523,7 @@
     "model": "products.product",
     "pk": 41,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0041",
       "name": "Mens T\u2011Shirt 41",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -536,7 +536,7 @@
     "model": "products.product",
     "pk": 42,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0042",
       "name": "Womens T\u2011Shirt 42",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -549,11 +549,11 @@
     "model": "products.product",
     "pk": 43,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0043",
       "name": "Mens T\u2011Shirt 43",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "10.39",
+      "price": "14.39",
       "rating": 5,
       "image": "137.jpg"
     }
@@ -562,7 +562,7 @@
     "model": "products.product",
     "pk": 44,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0044",
       "name": "Womens T\u2011Shirt 44",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -575,7 +575,7 @@
     "model": "products.product",
     "pk": 45,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0045",
       "name": "Mens T\u2011Shirt 45",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -588,11 +588,11 @@
     "model": "products.product",
     "pk": 46,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0046",
       "name": "Womens T\u2011Shirt 46",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "11.37",
+      "price": "13.37",
       "rating": 5,
       "image": "14.jpg"
     }
@@ -601,11 +601,11 @@
     "model": "products.product",
     "pk": 47,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0047",
       "name": "Mens T\u2011Shirt 47",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "10.22",
+      "price": "15.22",
       "rating": 4,
       "image": "140.jpg"
     }
@@ -614,7 +614,7 @@
     "model": "products.product",
     "pk": 48,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0048",
       "name": "Mens T\u2011Shirt 48",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -627,7 +627,7 @@
     "model": "products.product",
     "pk": 49,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0049",
       "name": "Womens T\u2011Shirt 49",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -640,7 +640,7 @@
     "model": "products.product",
     "pk": 50,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0050",
       "name": "Mens T\u2011Shirt 50",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -653,7 +653,7 @@
     "model": "products.product",
     "pk": 51,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0051",
       "name": "Womens T\u2011Shirt 51",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -666,11 +666,11 @@
     "model": "products.product",
     "pk": 52,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0052",
       "name": "Womens 2 pack T\u2011Shirt 52",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "10.48",
+      "price": "15.48",
       "rating": 5,
       "image": "145.jpg"
     }
@@ -679,7 +679,7 @@
     "model": "products.product",
     "pk": 53,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0053",
       "name": "Mens T\u2011Shirt 53",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -692,11 +692,11 @@
     "model": "products.product",
     "pk": 54,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0054",
       "name": "Womens T\u2011Shirt 54",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "11.95",
+      "price": "12.95",
       "rating": 4,
       "image": "147.jpg"
     }
@@ -705,7 +705,7 @@
     "model": "products.product",
     "pk": 55,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0055",
       "name": "Womens T\u2011Shirt 55",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -718,7 +718,7 @@
     "model": "products.product",
     "pk": 56,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0056",
       "name": "Womens T\u2011Shirt 56",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -731,7 +731,7 @@
     "model": "products.product",
     "pk": 57,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0057",
       "name": "Mens T\u2011Shirt 57",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -744,7 +744,7 @@
     "model": "products.product",
     "pk": 58,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0058",
       "name": "Womens T\u2011Shirt 58",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -757,7 +757,7 @@
     "model": "products.product",
     "pk": 59,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0059",
       "name": "Mens T\u2011Shirt 59",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -770,7 +770,7 @@
     "model": "products.product",
     "pk": 60,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0060",
       "name": "Mens T\u2011Shirt 60",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -783,7 +783,7 @@
     "model": "products.product",
     "pk": 61,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0061",
       "name": "Mens T\u2011Shirt 61",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -796,7 +796,7 @@
     "model": "products.product",
     "pk": 62,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0062",
       "name": "Mens T\u2011Shirt 62",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -809,7 +809,7 @@
     "model": "products.product",
     "pk": 63,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0063",
       "name": "Mens T\u2011Shirt 63",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -822,11 +822,11 @@
     "model": "products.product",
     "pk": 64,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0064",
       "name": "Mens T\u2011Shirt 64",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "20.11",
+      "price": "20.15",
       "rating": 4,
       "image": "156.jpg"
     }
@@ -835,7 +835,7 @@
     "model": "products.product",
     "pk": 65,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0065",
       "name": "Mens T\u2011Shirt 65",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -848,7 +848,7 @@
     "model": "products.product",
     "pk": 66,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0066",
       "name": "Mens T\u2011Shirt 66",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -861,7 +861,7 @@
     "model": "products.product",
     "pk": 67,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0067",
       "name": "Mens T\u2011Shirt 67",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -874,7 +874,7 @@
     "model": "products.product",
     "pk": 68,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0068",
       "name": "Mens T\u2011Shirt 68",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -887,7 +887,7 @@
     "model": "products.product",
     "pk": 69,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0069",
       "name": "Mens T\u2011Shirt 69",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -900,7 +900,7 @@
     "model": "products.product",
     "pk": 70,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0070",
       "name": "Mens T\u2011Shirt 70",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -913,7 +913,7 @@
     "model": "products.product",
     "pk": 71,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0071",
       "name": "Mens T\u2011Shirt 71",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -926,7 +926,7 @@
     "model": "products.product",
     "pk": 72,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0072",
       "name": "Mens T\u2011Shirt 72",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -939,7 +939,7 @@
     "model": "products.product",
     "pk": 73,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0073",
       "name": "Womens T\u2011Shirt 73",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -952,7 +952,7 @@
     "model": "products.product",
     "pk": 74,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0074",
       "name": "Womens T\u2011Shirt 74",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -965,7 +965,7 @@
     "model": "products.product",
     "pk": 75,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0075",
       "name": "Womens T\u2011Shirt 75",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -978,7 +978,7 @@
     "model": "products.product",
     "pk": 76,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0076",
       "name": "Womens T\u2011Shirt 76",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -991,7 +991,7 @@
     "model": "products.product",
     "pk": 77,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0077",
       "name": "Womens T\u2011Shirt 77",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1004,7 +1004,7 @@
     "model": "products.product",
     "pk": 78,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0078",
       "name": "Womens T\u2011Shirt 78",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1017,7 +1017,7 @@
     "model": "products.product",
     "pk": 79,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0079",
       "name": "Mens T\u2011Shirt 79",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1030,7 +1030,7 @@
     "model": "products.product",
     "pk": 80,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0080",
       "name": "Womens T\u2011Shirt 80",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1043,11 +1043,11 @@
     "model": "products.product",
     "pk": 81,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0081",
       "name": "Mens T\u2011Shirt 81",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "11.1",
+      "price": "12.1",
       "rating": 5,
       "image": "171.jpg"
     }
@@ -1056,7 +1056,7 @@
     "model": "products.product",
     "pk": 82,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0082",
       "name": "Mens T\u2011Shirt 82",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1069,7 +1069,7 @@
     "model": "products.product",
     "pk": 83,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0083",
       "name": "Womens T\u2011Shirt 83",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1082,7 +1082,7 @@
     "model": "products.product",
     "pk": 84,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0084",
       "name": "Womens T\u2011Shirt 84",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1095,7 +1095,7 @@
     "model": "products.product",
     "pk": 85,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0085",
       "name": "Mens T\u2011Shirt 85",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1108,7 +1108,7 @@
     "model": "products.product",
     "pk": 86,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0086",
       "name": "Womens T\u2011Shirt 86",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1121,7 +1121,7 @@
     "model": "products.product",
     "pk": 87,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0087",
       "name": "Womens T\u2011Shirt 87",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1134,7 +1134,7 @@
     "model": "products.product",
     "pk": 88,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0088",
       "name": "Womens T\u2011Shirt 88",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1147,11 +1147,11 @@
     "model": "products.product",
     "pk": 89,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0089",
       "name": "Womens T\u2011Shirt 89",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "10.96",
+      "price": "2.96",
       "rating": 4,
       "image": "179.jpg"
     }
@@ -1160,7 +1160,7 @@
     "model": "products.product",
     "pk": 90,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0090",
       "name": "Mens T\u2011Shirt 90",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1173,7 +1173,7 @@
     "model": "products.product",
     "pk": 91,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0091",
       "name": "Womens T\u2011Shirt 91",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1186,7 +1186,7 @@
     "model": "products.product",
     "pk": 92,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0092",
       "name": "Womens T\u2011Shirt 92",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1199,7 +1199,7 @@
     "model": "products.product",
     "pk": 93,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0093",
       "name": "Womens T\u2011Shirt 93",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1212,7 +1212,7 @@
     "model": "products.product",
     "pk": 94,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0094",
       "name": "Mens T\u2011Shirt 94",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1225,7 +1225,7 @@
     "model": "products.product",
     "pk": 95,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0095",
       "name": "Womens T\u2011Shirt 95",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1238,11 +1238,11 @@
     "model": "products.product",
     "pk": 96,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0096",
       "name": "Womens T\u2011Shirt 96",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "11.64",
+      "price": "12.64",
       "rating": 5,
       "image": "185.jpg"
     }
@@ -1251,7 +1251,7 @@
     "model": "products.product",
     "pk": 97,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0097",
       "name": "Womens T\u2011Shirt 97",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1264,7 +1264,7 @@
     "model": "products.product",
     "pk": 98,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0098",
       "name": "Womens T\u2011Shirt 98",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1277,7 +1277,7 @@
     "model": "products.product",
     "pk": 99,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0099",
       "name": "Womens 2 pack T\u2011Shirt 99",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1290,7 +1290,7 @@
     "model": "products.product",
     "pk": 100,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0100",
       "name": "Mens T\u2011Shirt 100",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1303,7 +1303,7 @@
     "model": "products.product",
     "pk": 101,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0101",
       "name": "Womens T\u2011Shirt 101",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1316,7 +1316,7 @@
     "model": "products.product",
     "pk": 102,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0102",
       "name": "Womens T\u2011Shirt 102",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1329,7 +1329,7 @@
     "model": "products.product",
     "pk": 103,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0103",
       "name": "Mens T\u2011Shirt 103",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1342,11 +1342,11 @@
     "model": "products.product",
     "pk": 104,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0104",
       "name": "Womens T\u2011Shirt 104",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "11.44",
+      "price": "12.44",
       "rating": 4,
       "image": "192.jpg"
     }
@@ -1355,7 +1355,7 @@
     "model": "products.product",
     "pk": 105,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0105",
       "name": "Womens T\u2011Shirt 105",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1368,7 +1368,7 @@
     "model": "products.product",
     "pk": 106,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0106",
       "name": "Mens T\u2011Shirt 106",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1381,7 +1381,7 @@
     "model": "products.product",
     "pk": 107,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0107",
       "name": "Womens longlseeve T\u2011Shirt 107",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1394,11 +1394,11 @@
     "model": "products.product",
     "pk": 108,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0108",
       "name": "Womens T\u2011Shirt 108",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "11.26",
+      "price": "12.26",
       "rating": 4,
       "image": "196.jpg"
     }
@@ -1407,7 +1407,7 @@
     "model": "products.product",
     "pk": 109,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0109",
       "name": "Womens crop T\u2011Shirt 109",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1420,7 +1420,7 @@
     "model": "products.product",
     "pk": 110,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0110",
       "name": "Mens Longsleeve T\u2011Shirt 110",
       "description": "Premium cotton crew\u2011neck T\u2011shirt longsleeve. 150\u00a0gsm, regular fit.",
@@ -1433,7 +1433,7 @@
     "model": "products.product",
     "pk": 111,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0111",
       "name": "Mens T\u2011Shirt 111",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1446,11 +1446,11 @@
     "model": "products.product",
     "pk": 112,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0112",
       "name": "Mens T\u2011Shirt 112",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "11.88",
+      "price": "13.88",
       "rating": 5,
       "image": "2.jpg"
     }
@@ -1459,7 +1459,7 @@
     "model": "products.product",
     "pk": 113,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0113",
       "name": "Mens T\u2011Shirt 113",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1472,7 +1472,7 @@
     "model": "products.product",
     "pk": 114,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0114",
       "name": "Mens T\u2011Shirt 114",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1485,7 +1485,7 @@
     "model": "products.product",
     "pk": 115,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0115",
       "name": "Womens T\u2011Shirt 115",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1498,11 +1498,11 @@
     "model": "products.product",
     "pk": 116,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0116",
       "name": "Womens T\u2011Shirt 116",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "10.12",
+      "price": "16.12",
       "rating": 4,
       "image": "23.jpg"
     }
@@ -1511,7 +1511,7 @@
     "model": "products.product",
     "pk": 117,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0117",
       "name": "Mens T\u2011Shirt 117",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1524,7 +1524,7 @@
     "model": "products.product",
     "pk": 118,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0118",
       "name": "Womens T\u2011Shirt 118",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1537,7 +1537,7 @@
     "model": "products.product",
     "pk": 119,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0119",
       "name": "Mens T\u2011Shirt 119",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1550,7 +1550,7 @@
     "model": "products.product",
     "pk": 120,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0120",
       "name": "Mens T\u2011Shirt 120",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1563,7 +1563,7 @@
     "model": "products.product",
     "pk": 121,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0121",
       "name": "Mens T\u2011Shirt 121",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1576,7 +1576,7 @@
     "model": "products.product",
     "pk": 122,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0122",
       "name": "Mens T\u2011Shirt 122",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1589,7 +1589,7 @@
     "model": "products.product",
     "pk": 123,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0123",
       "name": "Mens T\u2011Shirt 123",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1602,11 +1602,11 @@
     "model": "products.product",
     "pk": 124,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0124",
       "name": "Mens T\u2011Shirt 124",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "11.88",
+      "price": "13.88",
       "rating": 5,
       "image": "30.jpg"
     }
@@ -1615,7 +1615,7 @@
     "model": "products.product",
     "pk": 125,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0125",
       "name": "Womens T\u2011Shirt 125",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1628,7 +1628,7 @@
     "model": "products.product",
     "pk": 126,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0126",
       "name": "Mens T\u2011Shirt 126",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1641,7 +1641,7 @@
     "model": "products.product",
     "pk": 127,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0127",
       "name": "Mens T\u2011Shirt 127",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1654,7 +1654,7 @@
     "model": "products.product",
     "pk": 128,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0128",
       "name": "Womens T\u2011Shirt 128",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1667,7 +1667,7 @@
     "model": "products.product",
     "pk": 129,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0129",
       "name": "Mens T\u2011Shirt 129",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1680,7 +1680,7 @@
     "model": "products.product",
     "pk": 130,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0130",
       "name": "Womens T\u2011Shirt 130",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1693,7 +1693,7 @@
     "model": "products.product",
     "pk": 131,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0131",
       "name": "Mens T\u2011Shirt 131",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1706,7 +1706,7 @@
     "model": "products.product",
     "pk": 132,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0132",
       "name": "Womens T\u2011Shirt 132",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1719,11 +1719,11 @@
     "model": "products.product",
     "pk": 133,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0133",
       "name": "Mens T\u2011Shirt 133",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "11.53",
+      "price": "14.53",
       "rating": 5,
       "image": "39.jpg"
     }
@@ -1732,7 +1732,7 @@
     "model": "products.product",
     "pk": 134,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0134",
       "name": "Mens T\u2011Shirt 134",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1745,7 +1745,7 @@
     "model": "products.product",
     "pk": 135,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0135",
       "name": "Big mens T\u2011Shirt 135",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1758,7 +1758,7 @@
     "model": "products.product",
     "pk": 136,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0136",
       "name": "Womens moo moo T\u2011Shirt 136",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1771,11 +1771,11 @@
     "model": "products.product",
     "pk": 137,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0137",
       "name": "Mens T\u2011Shirt 137",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "11.1",
+      "price": "14.1",
       "rating": 4,
       "image": "42.jpg"
     }
@@ -1784,7 +1784,7 @@
     "model": "products.product",
     "pk": 138,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0138",
       "name": "Mens T\u2011Shirt 138",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1797,7 +1797,7 @@
     "model": "products.product",
     "pk": 139,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0139",
       "name": "Womens T\u2011Shirt 139",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1810,7 +1810,7 @@
     "model": "products.product",
     "pk": 140,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0140",
       "name": "Womens T\u2011Shirt 140",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1823,7 +1823,7 @@
     "model": "products.product",
     "pk": 141,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0141",
       "name": "Mens T\u2011Shirt 141",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1836,7 +1836,7 @@
     "model": "products.product",
     "pk": 142,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0142",
       "name": "Mens T\u2011Shirt 142",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1849,7 +1849,7 @@
     "model": "products.product",
     "pk": 143,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0143",
       "name": "Womans T\u2011Shirt 143",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1862,7 +1862,7 @@
     "model": "products.product",
     "pk": 144,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0144",
       "name": "Womens T\u2011Shirt 144",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1875,7 +1875,7 @@
     "model": "products.product",
     "pk": 145,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0145",
       "name": "Mens Tommy T\u2011Shirt 145",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1888,7 +1888,7 @@
     "model": "products.product",
     "pk": 146,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0146",
       "name": "Big mens T\u2011Shirt 146",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1901,7 +1901,7 @@
     "model": "products.product",
     "pk": 147,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0147",
       "name": "Mens T\u2011Shirt 147",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1914,7 +1914,7 @@
     "model": "products.product",
     "pk": 148,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0148",
       "name": "Womens T\u2011Shirt 148",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1927,7 +1927,7 @@
     "model": "products.product",
     "pk": 149,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0149",
       "name": "Mens T\u2011Shirt 149",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1940,7 +1940,7 @@
     "model": "products.product",
     "pk": 150,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0150",
       "name": "Womens crop T\u2011Shirt longsleeve 150",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1953,11 +1953,11 @@
     "model": "products.product",
     "pk": 151,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0151",
       "name": "Womens T\u2011Shirt longlseeve 151",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "10.49",
+      "price": "2.49",
       "rating": 4,
       "image": "55.jpg"
     }
@@ -1966,7 +1966,7 @@
     "model": "products.product",
     "pk": 152,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0152",
       "name": "Womens T\u2011Shirt 152",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1979,7 +1979,7 @@
     "model": "products.product",
     "pk": 153,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0153",
       "name": "Womens T\u2011Shirt 153",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -1992,7 +1992,7 @@
     "model": "products.product",
     "pk": 154,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0154",
       "name": "Womens T\u2011Shirt 154",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2005,7 +2005,7 @@
     "model": "products.product",
     "pk": 155,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0155",
       "name": "Womens T\u2011Shirt 155",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2018,11 +2018,11 @@
     "model": "products.product",
     "pk": 156,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0156",
       "name": "Womens T\u2011Shirt 156",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "10.18",
+      "price": "16.18",
       "rating": 5,
       "image": "6.jpg"
     }
@@ -2031,7 +2031,7 @@
     "model": "products.product",
     "pk": 157,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0157",
       "name": "Mens T\u2011Shirt 157",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2044,7 +2044,7 @@
     "model": "products.product",
     "pk": 158,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0158",
       "name": "Womens T\u2011Shirt 158",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2057,7 +2057,7 @@
     "model": "products.product",
     "pk": 159,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0159",
       "name": "Mens T\u2011Shirt 159",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2070,7 +2070,7 @@
     "model": "products.product",
     "pk": 160,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0160",
       "name": "Womens T\u2011Shirt 160",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2083,7 +2083,7 @@
     "model": "products.product",
     "pk": 161,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0161",
       "name": "Womens T\u2011Shirt 161",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2096,7 +2096,7 @@
     "model": "products.product",
     "pk": 162,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0162",
       "name": "Womens T\u2011Shirt 162",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2109,7 +2109,7 @@
     "model": "products.product",
     "pk": 163,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0163",
       "name": "Mens T\u2011Shirt 163",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2122,11 +2122,11 @@
     "model": "products.product",
     "pk": 164,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0164",
       "name": "Womens T\u2011Shirt 164",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "11.43",
+      "price": "13.43",
       "rating": 4,
       "image": "67.jpg"
     }
@@ -2135,7 +2135,7 @@
     "model": "products.product",
     "pk": 165,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0165",
       "name": "Mens T\u2011Shirt 165",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2148,7 +2148,7 @@
     "model": "products.product",
     "pk": 166,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0166",
       "name": "Womens T\u2011Shirt 166",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2161,7 +2161,7 @@
     "model": "products.product",
     "pk": 167,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0167",
       "name": "Mens T\u2011Shirt 167",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2174,7 +2174,7 @@
     "model": "products.product",
     "pk": 168,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0168",
       "name": "Mens T\u2011Shirt 168",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2187,7 +2187,7 @@
     "model": "products.product",
     "pk": 169,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0169",
       "name": "Mens T\u2011Shirt 169",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2200,11 +2200,11 @@
     "model": "products.product",
     "pk": 170,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0170",
       "name": "Mens T\u2011Shirt 170",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "10.96",
+      "price": "16.96",
       "rating": 5,
       "image": "72.jpg"
     }
@@ -2213,7 +2213,7 @@
     "model": "products.product",
     "pk": 171,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0171",
       "name": "Mens T\u2011Shirt 171",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2226,7 +2226,7 @@
     "model": "products.product",
     "pk": 172,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0172",
       "name": "Mens T\u2011Shirt 172",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2239,7 +2239,7 @@
     "model": "products.product",
     "pk": 173,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0173",
       "name": "Mens T\u2011Shirt 173",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2252,7 +2252,7 @@
     "model": "products.product",
     "pk": 174,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0174",
       "name": "Womens T\u2011Shirt 174",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2265,7 +2265,7 @@
     "model": "products.product",
     "pk": 175,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0175",
       "name": "Mens T\u2011Shirt 175",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2278,7 +2278,7 @@
     "model": "products.product",
     "pk": 176,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0176",
       "name": "Womens T\u2011Shirt 176",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2291,11 +2291,11 @@
     "model": "products.product",
     "pk": 177,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0177",
       "name": "Womens T\u2011Shirt 177",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "10.09",
+      "price": "15.09",
       "rating": 5,
       "image": "79.jpg"
     }
@@ -2304,7 +2304,7 @@
     "model": "products.product",
     "pk": 178,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0178",
       "name": "Womens T\u2011Shirt 178",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2317,7 +2317,7 @@
     "model": "products.product",
     "pk": 179,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0179",
       "name": "Womens T\u2011Shirt 179",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2330,7 +2330,7 @@
     "model": "products.product",
     "pk": 180,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0180",
       "name": "Womens T\u2011Shirt 180",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2343,7 +2343,7 @@
     "model": "products.product",
     "pk": 181,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0181",
       "name": "Mens T\u2011Shirt 181",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2356,7 +2356,7 @@
     "model": "products.product",
     "pk": 182,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0182",
       "name": "Womens T\u2011Shirt 182",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2369,7 +2369,7 @@
     "model": "products.product",
     "pk": 183,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0183",
       "name": "Womens T\u2011Shirt 183",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2382,11 +2382,11 @@
     "model": "products.product",
     "pk": 184,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0184",
       "name": "Womens T\u2011Shirt 184",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "11.68",
+      "price": "12.68",
       "rating": 5,
       "image": "85.jpg"
     }
@@ -2395,7 +2395,7 @@
     "model": "products.product",
     "pk": 185,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0185",
       "name": "Womens T\u2011Shirt 185",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2408,7 +2408,7 @@
     "model": "products.product",
     "pk": 186,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0186",
       "name": "Mens T\u2011Shirt 186",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2421,7 +2421,7 @@
     "model": "products.product",
     "pk": 187,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0187",
       "name": "Mens T\u2011Shirt 187",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2434,7 +2434,7 @@
     "model": "products.product",
     "pk": 188,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0188",
       "name": "Mens T\u2011Shirt longsleeve 188",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2447,7 +2447,7 @@
     "model": "products.product",
     "pk": 189,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0189",
       "name": "Womens small T\u2011Shirt 189",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, small fit.",
@@ -2460,7 +2460,7 @@
     "model": "products.product",
     "pk": 190,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0190",
       "name": "Mens T\u2011Shirt longsleeve 190",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2473,7 +2473,7 @@
     "model": "products.product",
     "pk": 191,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0191",
       "name": "Mens T\u2011Shirt 191",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2486,7 +2486,7 @@
     "model": "products.product",
     "pk": 192,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0192",
       "name": "Mens T\u2011Shirt 192",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2499,7 +2499,7 @@
     "model": "products.product",
     "pk": 193,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0193",
       "name": "Mens T\u2011Shirt 193",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2512,7 +2512,7 @@
     "model": "products.product",
     "pk": 194,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0194",
       "name": "Mens T\u2011Shirt 194",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2525,7 +2525,7 @@
     "model": "products.product",
     "pk": 195,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0195",
       "name": "Womens T\u2011Shirt 195",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2538,7 +2538,7 @@
     "model": "products.product",
     "pk": 196,
     "fields": {
-      "category": 11,
+      "category": 2,
       "sku": "TSH0196",
       "name": "Mens T\u2011Shirt 196",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2551,11 +2551,11 @@
     "model": "products.product",
     "pk": 197,
     "fields": {
-      "category": 10,
+      "category": 1,
       "sku": "TSH0197",
       "name": "Womens T\u2011Shirt long 197",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
-      "price": "10.09",
+      "price": "15.09",
       "rating": 5,
       "image": "97.jpg"
     }
@@ -2564,7 +2564,7 @@
     "model": "products.product",
     "pk": 198,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0198",
       "name": "Womens T\u2011Shirt 198",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2577,7 +2577,7 @@
     "model": "products.product",
     "pk": 199,
     "fields": {
-      "category": 10,
+      "category": 2,
       "sku": "TSH0199",
       "name": "Mens T\u2011Shirt 199",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
@@ -2590,7 +2590,7 @@
     "model": "products.product",
     "pk": 200,
     "fields": {
-      "category": 11,
+      "category": 1,
       "sku": "TSH0200",
       "name": "Womens T\u2011Shirt 200",
       "description": "Premium cotton crew\u2011neck T\u2011shirt. 150\u00a0gsm, regular fit.",
