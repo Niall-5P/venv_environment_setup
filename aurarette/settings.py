@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'profiles',
     'crispy_bootstrap4',
     'about',
+    'faq',
 
     # other
     'crispy_forms',
