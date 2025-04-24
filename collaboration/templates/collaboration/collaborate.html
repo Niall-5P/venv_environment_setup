@@ -1,9 +1,19 @@
 {% extends "base.html" %}
-{% block extra_title %}- Collaborate{% endblock %}
+{% load static %}
+
+{# --- ①  inject the page-specific css ---------------------------------- #}
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/collab.css' %}">
+{% endblock %}
+
+{# --- ②  give the page its own body class ------------------------------ #}
 {% block body_class %}collab-page{% endblock %}
 
-{# Hide free-delivery banner if you like #}
+{# --- ③  optional: hide the delivery banner on this page --------------- #}
 {% block delivery_banner %}{% endblock %}
+
+{# ----- rest of the page ------------------------------------------------ #}
+{% block extra_title %}- Collaborate{% endblock %}
 
 {% block content %}
 <div class="container py-5">
@@ -11,7 +21,7 @@
 
     <form method="post" novalidate>
         {% csrf_token %}
-        {{ form|crispy }}      {# if you use django-crispy-forms #}
+        {{ form|crispy }}   {# or just {{ form.as_p }} if you’re not using crispy #}
         <button class="btn btn-black rounded-0 mt-3">Submit</button>
     </form>
 </div>

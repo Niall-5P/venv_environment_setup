@@ -1,0 +1,5 @@
+/* Kill the site-wide hero background only on the collab page */
+body.collab-page {
+    background: #ffffff !important;   /* solid white (pick any colour)   */
+    background-image: none !important; /* guarantees no hero image loads */
+}

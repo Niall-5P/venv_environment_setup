@@ -1,0 +1,10 @@
+/* Remove the hero image & give a white background just on this page */
+body.thanks-page {
+    background: #ffffff !important;
+    background-image: none !important;
+}
+
+/* Push the thank-you card / text lower for breathing room */
+.thanks-wrapper {
+    padding-top: 120px;     /* adjust to taste */
+}
