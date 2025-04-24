@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load static %}
+{% block body_class %}about-page{% endblock %}
+
+
+{# ------------------------------------
+   Extra CSS for this single page only
+   ------------------------------------ #}
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'about/css/about.css' %}">
+{% endblock %}
+
+{% block extra_title %} | About{% endblock %}
+
+{% block content %}
+<section class="about-top py-5">
+    <div class="container text-center">
+        <h1 class="display-4 logo-font mb-3">About&nbsp;Aurarette</h1>
+        <p class="lead text-muted">
+            Premium, sustainable street-wear designed in Ireland.<br>
+            Ethically sourced · Carbon-neutral shipping · Size-inclusive
+        </p>
+    </div>
+</section>
+
+<section class="about-body py-5 border-top">
+    <div class="container">
+        <h2 class="h4 mb-3">Our Story</h2>
+        <p>
+            Aurarette began in 2024 with a single mission: make elevated basics that
+            don’t cost the planet. We partner with
+            <a href="https://www.fairwear.org/" target="_blank" rel="noopener">Fair-Wear</a>
+            certified factories, use only organic cotton, and offset 100&nbsp;% of
+            our logistics footprint.
+        </p>
+
+        <h2 class="h4 mt-5 mb-3">Why T-Shirts?</h2>
+        <p>
+            The humble tee is the most universal garment on earth—so it’s also the
+            best place to start driving change. Our men’s and women’s lines cover
+            every fit, from cropped &amp; boxy to tall &amp; relaxed.
+        </p>
+
+        <h2 class="h4 mt-5 mb-3">Giving Back</h2>
+        <p>
+            1&nbsp;% of every sale funds global re-forestation projects through
+            <a href="https://onetreeplanted.org/" target="_blank" rel="noopener">One Tree Planted</a>.
+        </p>
+    </div>
+</section>
+{% endblock %}

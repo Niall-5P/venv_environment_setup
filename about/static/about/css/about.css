@@ -1,0 +1,20 @@
+/* Only loaded on the /about/ page */
+.about-top {
+    background: #ffffff;          /* explicit white */
+    color: #000000;                 /* darker text for contrast */
+}
+
+.about-body {
+    background: #ffffff;          /* keep the main body white too */
+    color: #333;
+    line-height: 1.7;
+}
+
+.about-body a {
+    color: #007bff;
+    text-decoration: underline;
+}
+/* Make the About page background plain white, overriding the hero image */
+.about-page {
+    background: #ffffff !important;   /* remove image + force colour */
+}
