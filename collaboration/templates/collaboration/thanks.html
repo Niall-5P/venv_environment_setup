@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block extra_title %}- Thank You{% endblock %}
+{% block delivery_banner %}{% endblock %}
+
+{% block content %}
+<div class="container py-5 text-center">
+    <h2 class="mb-3">Thanks for reaching out!</h2>
+    <p>We’ve received your collaboration request and will respond within two business days.</p>
+    <a href="{% url 'home' %}" class="btn btn-outline-black rounded-0 mt-3">Back to Home</a>
+</div>
+{% endblock %}

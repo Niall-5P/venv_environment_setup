@@ -1,5 +1,6 @@
 {% extends "base.html" %}
-{% load static %}          {# load static must come after extends and before anything else #}
+{% block delivery_banner %}{% endblock %}
+{% load static %}          
 
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'css/faq.css' %}">

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block extra_title %}- Collaborate{% endblock %}
+{% block body_class %}collab-page{% endblock %}
+
+{# Hide free-delivery banner if you like #}
+{% block delivery_banner %}{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <h2 class="text-center mb-4">Partner with Aurarette</h2>
+
+    <form method="post" novalidate>
+        {% csrf_token %}
+        {{ form|crispy }}      {# if you use django-crispy-forms #}
+        <button class="btn btn-black rounded-0 mt-3">Submit</button>
+    </form>
+</div>
+{% endblock %}
