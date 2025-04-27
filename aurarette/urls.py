@@ -29,9 +29,12 @@ urlpatterns = [
     path('profile/', include('profiles.urls')),
     path('about/', include('about.urls')),
     path('faq/', include('faq.urls', namespace='faq')),
-    path('collaborate/', include('collaboration.urls')),
+    path('collaborate/', include('collaboration.urls', namespace='collaborate')),
     
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = 'aurarette.views.handler404'
+
+
+

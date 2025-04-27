@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+  <style>
+    /* hide the global hero on collaboration pages */
+    body.collab-page {
+      background: none !important;
+      background-color: #fff !important;
+    }
+  </style>
+{% endblock %}
+
+{% block body_class %}collab-page{% endblock %}
+{% block delivery_banner %}{% endblock %}
+
+{% block extra_title %}- Manage Collaboration Requests{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+  <h2 class="mb-4">All Collaboration Requests</h2>
+  <p class="text-right">
+    <a href="{% url 'collaborate:collaborate' %}" class="btn btn-sm btn-outline-dark">
+      ➕ New Request
+    </a>
+  </p>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Brand</th>
+        <th>Website</th>
+        <th>Submitted</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for req in requests %}
+      <tr>
+        <td>{{ req.full_name }}</td>
+        <td>{{ req.email }}</td>
+        <td>{{ req.brand_name|default:"Individual" }}</td>
+        <td>
+          {% if req.website %}
+            <a href="{{ req.website }}" target="_blank">{{ req.website }}</a>
+          {% endif %}
+        </td>
+        <td>{{ req.submitted_at|date:"SHORT_DATETIME_FORMAT" }}</td>
+        <td>
+          <a href="{% url 'collaborate:edit' req.pk %}" class="mr-2">✏️</a>
+          <form method="post"
+                action="{% url 'collaborate:delete' req.pk %}"
+                style="display:inline">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-link p-0 text-danger">🗑️</button>
+          </form>
+        </td>
+      </tr>
+      {% empty %}
+      <tr>
+        <td colspan="6" class="text-center">No collaboration requests yet.</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

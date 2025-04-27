@@ -53,10 +53,19 @@
 
         <li class="nav-item">
             <a class="logo-font font-weight-bold nav-link text-black mr-5"
-               href="{% url 'collaborate' %}">
-               Collaborate
+               href="{% url 'collaborate:collaborate' %}">
+                Collaborate
             </a>
-        </li>        
+        </li>
+        
+        {% if request.user.is_staff %}
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'collaborate:manage' %}">
+            Manage Collaboration Requests
+          </a>
+        </li>
+      {% endif %}
+             
         
 
 

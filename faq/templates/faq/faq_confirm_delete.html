@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block extra_title %}- Delete FAQ{% endblock %}
+{% block content %}
+<div class="container py-5">
+    <h3>Delete FAQ</h3>
+    <p>Are you sure you want to delete <strong>"{{ faq.question }}"</strong>?</p>
+    <form method="post">
+        {% csrf_token %}
+        <button class="btn btn-danger">Yes – delete</button>
+        <a href="{% url 'faq_list' %}" class="btn btn-outline-secondary ml-2">Cancel</a>
+    </form>
+</div>
+{% endblock %}

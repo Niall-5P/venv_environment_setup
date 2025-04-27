@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+  <style>
+    /* hide the global hero on collaboration pages */
+    body.collab-page {
+      background: none !important;
+      background-color: #fff !important;
+    }
+  </style>
+{% endblock %}
+
+{% block body_class %}collab-page{% endblock %}
+{% block delivery_banner %}{% endblock %}
+
+{% block extra_title %}
+  {% if object %}Edit{% else %}New{% endif %} Collaboration Request
+{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+  <h2 class="mb-4 text-center">
+    {% if object %}Edit{% else %}New{% endif %} Collaboration Request
+  </h2>
+  <form method="post" novalidate>
+    {% csrf_token %}
+    {{ form|crispy }}
+    <div class="mt-3">
+      <button type="submit" class="btn btn-primary">
+        {% if object %}Save{% else %}Submit{% endif %}
+      </button>
+      <a href="{% url 'collaborate:manage' %}" class="btn btn-secondary ml-2">Cancel</a>
+    </div>
+  </form>
+</div>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+  <style>
+    /* hide the global hero on collaboration pages */
+    body.collab-page {
+      background: none !important;
+      background-color: #fff !important;
+    }
+  </style>
+{% endblock %}
+
+{% block body_class %}collab-page{% endblock %}
+{% block delivery_banner %}{% endblock %}
+
+{% block extra_title %}- Delete Collaboration Request{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+  <h2 class="mb-4 text-center">Confirm Delete</h2>
+  <p class="text-center">
+    Are you sure you want to delete the request by
+    “{{ object.full_name }} – {{ object.brand_name|default:"Individual" }}”?
+  </p>
+  <form method="post" class="text-center">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger">Yes, delete</button>
+    <a href="{% url 'collaborate:manage' %}" class="btn btn-secondary ml-2">Cancel</a>
+  </form>
+</div>
+{% endblock %}

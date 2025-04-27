@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block extra_title %} - {{ create|yesno:"Add FAQ,Edit FAQ" }}{% endblock %}
+{% block body_class %}faq-page{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <h3>{{ create|yesno:"Add FAQ,Edit FAQ" }}</h3>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn btn-black">{{ create|yesno:"Create,Update" }}</button>
+        <a href="{% url 'faq_list' %}" class="btn btn-outline-secondary ml-2">Cancel</a>
+    </form>
+</div>
+{% endblock %}
