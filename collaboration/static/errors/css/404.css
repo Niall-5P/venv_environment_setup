@@ -1,0 +1,18 @@
+/* hide the global hero on 404 pages */
+.page-404 header {
+    background-image: none !important;
+  }
+  
+  /* make all text on 404 page black */
+  .page-404 {
+    color: #000 !important;
+  }
+  
+  /* optional extra styling to center and enlarge text */
+  .page-404 .container {
+    min-height: 80vh; /* push content down a bit */
+  }
+  .page-404 .display-4 {
+    font-size: 3rem;
+  }
+  

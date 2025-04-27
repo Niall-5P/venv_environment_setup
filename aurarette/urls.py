@@ -37,4 +37,4 @@ urlpatterns = [
 handler404 = 'aurarette.views.handler404'
 
 
-
+handler404 = "home.views.handler404"
