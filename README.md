@@ -73,6 +73,19 @@ Repository:
   - robots.txt & sitemap.xml at site root.  
   - Custom 404 page that hides the global hero image and displays a branded message.  
 
+
+
+### Wireframes
+- Design process: The wireframes for Aurarette borrow heavily from the clean, grid-based layouts introduced in the Boutique Ado walkthrough. Each page sketch—from the Homepage and Products listing to the T-Shirts, About, FAQ, and Collaborate screens—follows a consistent header/navigation structure, clear content sections, and spacious padding, just as Boutique Ado demonstrated. I customized the layout to emphasize Gen-Z style cues (bold typography, full-width imagery, and concise call-to-action buttons), but retained the underlying grid system and responsive breakpoints that ensured all elements—from product filters to form fields—align neatly across desktop and mobile viewports.
+
+![Homepage](media/Homepage.png)
+![All Products](media/All_products.png)
+![T-Shirts](media/T_shirts.png)
+![About](media/About.png)
+![FAQ](media/FAQ.png)
+![Collaborate](media/Collaborate.png)
+
+
 ### To Be Implemented
 - Product reviews by authenticated users.  
 - Wishlist/favorites feature.  
