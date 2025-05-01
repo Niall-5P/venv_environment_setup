@@ -76,7 +76,7 @@ Repository:
 
 
 ### Wireframes
-- Design process: The wireframes for Aurarette borrow heavily from the clean, grid-based layouts introduced in the Boutique Ado walkthrough. Each page sketch—from the Homepage and Products listing to the T-Shirts, About, FAQ, and Collaborate screens—follows a consistent header/navigation structure, clear content sections, and spacious padding, just as Boutique Ado demonstrated. I customized the layout to emphasize Gen-Z style cues (bold typography, full-width imagery, and concise call-to-action buttons), but retained the underlying grid system and responsive breakpoints that ensured all elements—from product filters to form fields—align neatly across desktop and mobile viewports.
+- Design process: The wireframes for Aurarette borrow heavily from the clean, grid-based layouts introduced in the Boutique Ado walkthrough. Each page sketch—from the Homepage and Products listing to the T-Shirts, About, FAQ, and Collaborate screens—follows a consistent header/navigation structure, clear content sections, and spacious padding, just as Boutique Ado demonstrated. I customized the layout to emphasize Gen-Z style cues (full-width imagery, and colours), but retained the underlying grid system and responsive breakpoints that ensured all elements—from product filters to form fields—align neatly across desktop and mobile viewports.
 
 ![Homepage](media/Homepage.png)
 ![All Products](media/All_products.png)
