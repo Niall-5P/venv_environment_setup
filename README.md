@@ -16,6 +16,9 @@ Key goals:
 Repository:  
 <https://github.com/Niall-5P/venv_environment_setup>
 
+Deployed site to Heroku:
+<https://aurarette-b12540718b6f.herokuapp.com/>
+
 ---
 
 ## Technologies
@@ -72,6 +75,7 @@ Repository:
   - Newsletter signup form.  
   - robots.txt & sitemap.xml at site root.  
   - Custom 404 page that hides the global hero image and displays a branded message.  
+  ![Mockup Facebook page](media/Facebook_mockup.png)
 
 
 
