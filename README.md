@@ -4,6 +4,8 @@
 
 ---
 
+## NOTE Previously exposed variables are no longer in use and have been added to gitignore file
+
 ## Overview
 
 Aurarette targets style-conscious Gen-Z shoppers looking for quality, affordable T-shirts in bold, expressive designs.  
@@ -254,7 +256,6 @@ These manual tests validate that **Aurarette** delivers a reliable, secure and u
    - In your Django project’s `requirements.txt`, ensure you have:
      - `gunicorn` (production web server)
      - `dj-database-url` (if using Postgres)
-     - `whitenoise` (for static files)
    - Commit and push these changes to GitHub.
 
 4. **Procfile**  
@@ -269,16 +270,11 @@ These manual tests validate that **Aurarette** delivers a reliable, secure and u
    - Find your repo and connect it.  
    - Optionally, enable automatic deploys so each push to `main` triggers a new build.
 
-6. **Static Files Setup**  
-   - Add `whitenoise.middleware.WhiteNoiseMiddleware` to `MIDDLEWARE` in `settings.py`.  
-   - Set `STATIC_ROOT` in your Django settings (already done if following best practices).  
-   - Run `collectstatic` automatically when Heroku builds by ensuring it’s set as a release step or in the default Django build process.
-
-7. **Deploy**  
+6. **Deploy**  
    - Click **Deploy Branch** (if manual) or push your code to GitHub (if auto-deploy).  
    - Heroku will install dependencies, run collectstatic, and launch your app using `gunicorn`.
 
-8. **Verify**  
+7. **Verify**  
    - Once the build completes, open your app’s URL on Heroku.  
    - Confirm your site is reachable, static files load, and all env variables (like `SECRET_KEY`) are working properly.
 
