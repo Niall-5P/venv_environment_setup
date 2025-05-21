@@ -92,6 +92,26 @@ Deployed site to Heroku:
 ![Collaborate](media/Collaborate.png)
 
 
+## User Stories
+
+* As a **site user**, I want to browse T-shirts by category (men’s, women’s, all) so that I can quickly see items relevant to me.  
+* As a **site user**, I want to sort and filter products by price and rating so that I can find items that fit my budget and quality expectations.  
+* As a **site user**, I want to view detailed product pages (images, sizes, descriptions) so that I can make an informed purchase decision.  
+* As a **site user**, I want to add items to my bag and see a running total in the header so that I always know how much I’m spending.  
+* As a **site user**, I want to update quantities or remove items in my bag so that I can fine-tune my order before paying.  
+* As a **site user**, I want to check out securely using Stripe so that I can pay with confidence.  
+* As a **site user**, I want to create an account so that my orders, addresses, and preferences are saved for next time.  
+* As a **site user**, I want to log in, log out, and reset my password so that my account remains secure and recoverable.  
+* As a **site user**, I want to receive an order-success page and confirmation email so that I know my purchase went through.  
+* As a **site user**, I want to subscribe to the newsletter so that I hear about new drops and discounts.  
+* As a **site user**, I want to submit a collaboration request if I’m a brand or influencer so that I can partner with Aurarette.  
+* As a **site user**, I want to read an FAQ so that common questions are answered without contacting support.  
+* As a **site user**, I want the site to be fully responsive so that shopping on mobile feels as smooth as on desktop.  
+* As a **site user**, I want a friendly 404 page with a link back to the shop so that I don’t get stuck on dead ends.  
+* *(Future)* As a **site user**, I want to leave product reviews and mark items as favourites/wishlist so that I can share feedback and keep track of products I love.  
+
+
+
 ### To Be Implemented
 - Product reviews by authenticated users.  
 - Wishlist/favorites feature.  
@@ -131,35 +151,39 @@ _Last updated: 29 April 2025_
 2. [Tools & Environment](#2-tools--environment)  
 3. [Manual Test Matrix](#4-manual-test-matrix)   
 
----
 
-## 1. Testing Philosophy
-Aurarette adopts a **“test-early, test-often”** strategy:
 
-| Layer                 | Goal                                   |
-| --------------------- | -------------------------------------- |
-| **Unit**              | Verify isolated logic (models, utils)  |
-| **Integration**       | Confirm Django views + templates work together |
-| **System / Manual**   | Validate full user flows & UX          |
-| **Regression**        | Prevent re-introducing fixed bugs via CI |
+## 1. Testing Approach
+Aurarette follows a **“test early, test the basics”** mindset:
 
----
+| Layer      | What we check                            |
+| -----------| ---------------------------------------- |
+| **Unit**   | Single functions / models work as expected |
+| **Integration** | Key Django views render the right templates & data |
+| **Manual** | Happy-path user journeys feel OK in a browser |
 
-## 2. Tools & Environment
-| Category | Tool / Version | Purpose |
-| -------- | -------------- | ------- |
-| Test Runner | `pytest 8.1` + `pytest-django` | Unit & integration |
-| Coverage   | `coverage.py 7.4` | Measure code coverage |
-| CI         | GitHub Actions (Ubuntu 22.04) | Automated test pipeline |
-| Browser Testing | Chrome 122, Firefox 124, Safari 17, Edge 122 | Cross-browser manual tests |
-| Device Lab | iPhone 15, Pixel 8, iPad Air 5, Galaxy Tab S9 | Responsiveness |
-| Accessibility | Lighthouse 11, WAVE | WCAG checks |
-| Validators | W3C, Jigsaw, ESLint, PEP8 (`flake8 7.0`) | Standards compliance |
-| Payment Sandbox | Stripe test mode | Secure checkout tests |
 
-All automated tests run against **Python 3.11**, **Django 4.2.9**, **PostgreSQL 15** on Linux.
 
----
+## 2. Tools
+| Tool | Why we use it |
+| ---- | ------------- |
+| `pytest` + `pytest-django` | Run unit & integration tests |
+| `coverage.py`             | See how much of the code is hit |
+| GitHub Actions (Ubuntu)   | Run the test suite automatically on every push |
+
+*(Everything runs on Python 3.11 & Django 4.2)*
+
+
+## Quick Start
+bash
+# run tests
+pytest
+
+# show coverage
+coverage run -m pytest
+coverage html           # opens a simple HTML report
+
+
 
 ### 3. Manual Test Matrix
 
@@ -180,7 +204,6 @@ All automated tests run against **Python 3.11**, **Django 4.2.9**, **PostgreSQL 
 | **US-11** | **404 page** | `/no-such-page/` | Branded 404 + “Back to shop” CTA | ✅ Pass |
 | **US-12** | **Robots & sitemap** | Access `/robots.txt` and `/sitemap.xml` | Correct directives, 200 status | ✅ Pass |
 
----
 
 ### 3.2 Device & Browser Grid
 
@@ -194,7 +217,7 @@ All automated tests run against **Python 3.11**, **Django 4.2.9**, **PostgreSQL 
 
 _No visual or functional discrepancies observed down to 320 px widths._
 
----
+
 
 ### 3.3 Forms & Validation
 
@@ -202,7 +225,6 @@ _No visual or functional discrepancies observed down to 320 px widths._
 * **Server-side** – Django form `clean()` methods and model validators; errors surfaced via `crispy-forms`.  
 * **Security** – Script injection attempts rejected; special-character slugs safely slugified.
 
----
 
 ### 3.4 Stripe Scenarios
 
@@ -221,7 +243,7 @@ _No visual or functional discrepancies observed down to 320 px widths._
 * **Role permissions** prevent unauthorized access to influencer and admin features.  
 * **Responsive design**: layout adapts gracefully on iPad and mobile; no horizontal scroll detected.  
 * **Error handling**: informative messages guide users; invalid inputs never break the flow.  
-* **Third-party services**: Stripe, Cloudinary, Mailchimp integrations work in both sandbox and live keys.  
+* **Third-party services**: Stripe, Mailchimp integrations work in both sandbox and live keys.  
 
 These manual tests validate that **Aurarette** delivers a reliable, secure and user-friendly shopping experience aligned with its target Gen-Z audience and business objectives.
 
